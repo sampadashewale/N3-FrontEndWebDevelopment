@@ -1,0 +1,103 @@
+section{
+    margin: 10px;
+}
+#h1{
+    color: rgb(243, 113, 7);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    border: rgb(123, 67, 67);
+    border-spacing: 10px;
+}
+
+#contact-btn{
+    background-color: rgb(243, 113, 7);
+}
+
+#HOME{
+    padding-bottom: 100px;
+    background-color: rgb(241, 214, 214);
+    
+    border: solid rgb(123, 67, 67);
+}
+#firstHOME{
+    padding-top: 25px;
+    padding-left: 30px;
+   
+}
+#secondHOME{
+    background-color: rgb(123, 67, 67);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    border:solid rgb(77, 34, 34);
+    border-style: inherit;
+}
+#thirdHOME{
+    text-align:center;
+    padding-top: 20px;
+    text-overflow: clip;
+}
+
+#BIO{
+    background-color: rgb(167, 196, 250);
+    border: solid rgb(29, 42, 66);
+    padding-bottom: 100px;
+}
+#firstBIO{
+    text-align: center;
+    background-color:rgb(42, 65, 107);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    border:solid rgb(13, 19, 31);
+    border-style: inherit;
+}
+#secondBIO{
+    text-align:center;
+    padding-top: 20px;
+    text-overflow: clip;
+}
+
+#PORTFOLIO{
+    background-color: rgb(187, 145, 226);
+    border: solid rgb(89, 42, 133);
+    padding-bottom: 100px;
+}
+#firstPORTFOLIO{
+    text-align: center;
+    background-color:rgb(79, 50, 107);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    border:solid rgb(33, 20, 44);
+    border-style: inherit;
+}
+#secondPORTFOLIO{
+    text-align:center;
+    padding-top: 20px;
+    text-overflow: clip;
+}
+
+#SKILL{
+    background-color: blueviolet;
+}
+#firstSKILL{
+    
+}
+#secondSKILL{
+    
+}
+
+#CONTACT{
+    background-color: rgb(241, 214, 214);
+}
+
+
+
+
+
+
