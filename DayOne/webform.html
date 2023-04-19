@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!--version of html-->
+<html>
+<head>
+    <title>TNSIF DRIVE</title>
+
+    <link rel="stylesheet" href="Style1.css"><!--External Css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"><!--Bootstrap link-->
+
+<!--internal/Embedded Css-->
+
+</head>
+<body>
+    <p class="pp">Kindly register form detail carefully</p>
+    <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+    <h1 id="h1">Accenture Registration</h1></div><br>
+    <div class="col-md-4"></div>
+    </div>
+
+    <div class="row"> <!--div tag with row and col-->
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+    <form action="">
+    <label for="firstname" id="firstn">Enter first name</label>
+    <input type="text" name="firstname" placeholder="first name" required><br><!--textbox-->
+    <label for="lastname" id="lastn">Enter last name</label>
+    <input type="text" name="lastname" placeholder="last name" required><br>
+    <label for="password">Enter password</label><!--password-->
+    <input type="password" name="password" placeholder="Must be six digits" required><br>
+
+    <!--Radio button-->
+    <label for="option1">Male</label> <input type="radio" name="age" value="male" id="option1">
+    <label for="option2">Female</label> <input type="radio" name="age" value="female" id="option2">
+    <label for="option3">Other</label> <input type="radio" name="age" value="other" id="option3">
+    <br>
+
+    <!--checkbox button-->
+    <label for="option1">English</label> <input type="checkbox" name="lang" value="English" id="option1">
+    <label for="option2">Marathi</label> <input type="checkbox" name="lang" value="Marathi" id="option2">
+    <label for="option3">Hindi</label> <input type="checkbox" name="lang" value="Hindi" id="option3">
+    <br><br>  
+
+    <!--security Question-->
+    <label for="security">Security Question</label>
+    <select name="security" id="security" placeholder="Choose Q">
+        <option value="option1">which is your fav color</option>
+        <option value="option1">what is your father name</option>
+    </select><br>
+    <label for="security">Enter Your Answer Here</label>
+    <input type="text" name="security_Q" placeholder="Security Answer" required>
+    <br>
+
+    <!--submit button-->
+    <button type="submit" name="submit" value="submit" class="btn btn-primary">Submit</button> 
+    <button type="reset" name="reset" value="reset" class="btn btn-default">Reset</button> 
+    <br>
+    </div>
+    <div class="col-md-3"></div>
+    </div>
+
+</form>
+</body>
+</html>

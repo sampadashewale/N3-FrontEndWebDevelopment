@@ -1,0 +1,29 @@
+/*<!--# for id and . for class and grouping selectors-->*/
+
+body /*all body of connected code file*/
+{
+   background-color:lightyellow;
+    text-align: center;
+}
+
+#h1{ 
+    padding:10px;
+    font-style: oblique;
+  color:white;
+  background-color: rgb(102, 20, 20);
+}
+
+/*first letter and last letter element*/
+.pp::first-letter{ /*sudo element*/
+    color: brown;
+}
+
+form{
+    background-image: url(bg_acc.jpeg);
+    padding: 30px;
+    border:solid rgb(94, 22, 4) 10px;
+    /*background-color:lightpink;*/
+}
+
+
+
