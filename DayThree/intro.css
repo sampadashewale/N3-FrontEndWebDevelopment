@@ -1,0 +1,17 @@
+#body{
+    text-align: center;
+    background-color: rgb(251, 216, 216);
+    margin: 20px;
+    padding: 50px;
+    
+} 
+#h1{
+    color: rgb(68, 3, 3);
+}
+form{
+    margin-left:70px;
+    margin-right:70px;
+    background-color: rgb(245, 150, 150);
+    padding: 40px;
+    border: solid brown 2px;
+}
